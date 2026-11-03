@@ -1,0 +1,162 @@
+{
+  "1": {
+    "group": "Panel lateral",
+    "role": "Configurable",
+    "action": "J",
+    "desc": "Botón lateral adicional del panel 1–9.",
+    "pos": [
+      25.8,
+      39.9
+    ]
+  },
+  "2": {
+    "group": "Panel lateral",
+    "role": "Configurable",
+    "action": "Tecla 2",
+    "desc": "Botón lateral inferior del bloque adicional.",
+    "pos": [
+      31.1,
+      55
+    ]
+  },
+  "3": {
+    "group": "Panel lateral",
+    "role": "Configurable",
+    "action": "Tecla 3",
+    "desc": "Botón lateral central del bloque adicional.",
+    "pos": [
+      33.1,
+      47.1
+    ]
+  },
+  "4": {
+    "group": "Panel lateral",
+    "role": "Mouse4",
+    "action": "Forward",
+    "desc": "Botón lateral típico mouse4.",
+    "pos": [
+      36.5,
+      43
+    ]
+  },
+  "5": {
+    "group": "Panel lateral",
+    "role": "Configurable",
+    "action": "Tecla 5",
+    "desc": "Botón lateral inferior con textura punteada.",
+    "pos": [
+      39,
+      65.9
+    ]
+  },
+  "6": {
+    "group": "Panel lateral",
+    "role": "Configurable",
+    "action": "Tecla 6",
+    "desc": "Botón lateral situado inmediatamente por encima del botón 5.",
+    "pos": [
+      39.7,
+      58.7
+    ]
+  },
+  "7": {
+    "group": "Panel lateral",
+    "role": "Configurable",
+    "action": "Macro av",
+    "desc": "Botón lateral inferior trasero.",
+    "pos": [
+      46.1,
+      73.9
+    ]
+  },
+  "8": {
+    "group": "Panel lateral",
+    "role": "Configurable",
+    "action": "Tecla 8",
+    "desc": "Botón lateral delantero próximo al apoyo del pulgar.",
+    "pos": [
+      48.5,
+      65.7
+    ]
+  },
+  "9": {
+    "group": "Panel lateral",
+    "role": "Mouse5",
+    "action": "Backward",
+    "desc": "Botón lateral típico mouse5.",
+    "pos": [
+      47.7,
+      55.3
+    ]
+  },
+  "10": {
+    "group": "Botones índice",
+    "role": "Configurable",
+    "action": "Fire Key",
+    "desc": "Botón índice superior, a la izquierda del clic izquierdo.",
+    "pos": [
+      25.4,
+      14.5
+    ]
+  },
+  "11": {
+    "group": "Botones índice",
+    "role": "Configurable",
+    "action": "Three Click",
+    "desc": "Botón índice inferior, a la izquierda del clic izquierdo.",
+    "pos": [
+      32.9,
+      22.9
+    ]
+  },
+  "12": {
+    "group": "Click principal",
+    "role": "Mouse Left",
+    "action": "Left Button",
+    "desc": "Clic izquierdo principal.",
+    "pos": [
+      38,
+      12.4
+    ]
+  },
+  "13": {
+    "group": "Click principal",
+    "role": "Mouse Right",
+    "action": "Right Button",
+    "desc": "Clic derecho principal.",
+    "pos": [
+      59.3,
+      12.2
+    ]
+  },
+  "14": {
+    "group": "Rueda",
+    "role": "Middle Button",
+    "action": "Middle Button",
+    "desc": "Pulsación de la rueda.",
+    "pos": [
+      57.1,
+      19.6
+    ]
+  },
+  "15": {
+    "group": "Botones superiores",
+    "role": "DPI+",
+    "action": "DPI+",
+    "desc": "Primer botón superior (normalmente DPI+), configurable.",
+    "pos": [
+      70,
+      34.4
+    ]
+  },
+  "16": {
+    "group": "Botones superiores",
+    "role": "DPI-",
+    "action": "DPI-",
+    "desc": "Segundo botón superior (normalmente DPI−), configurable.",
+    "pos": [
+      76.3,
+      42.5
+    ]
+  }
+}

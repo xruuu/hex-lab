@@ -1,0 +1,4 @@
+const http=require('node:http'),fs=require('node:fs'),path=require('node:path');
+function createServer(){return http.createServer((req,res)=>{const pathname=new URL(req.url,'http://localhost').pathname;const name=pathname==='/'||pathname==='/index.html'?'index.html':pathname==='/favicon.svg'?'favicon.svg':null;if(!name){res.writeHead(404);res.end('No encontrado');return}const file=path.resolve(__dirname,'../dist',name);if(!fs.existsSync(file)){res.writeHead(503);res.end('Ejecuta npm run build antes de iniciar.');return}res.writeHead(200,{'Content-Type':name.endsWith('.svg')?'image/svg+xml':'text/html; charset=utf-8','Cache-Control':'no-cache'});fs.createReadStream(file).pipe(res)})}
+if(require.main===module){const port=Number(process.env.HEX_PORT||3000);if(!Number.isInteger(port)||port<1||port>65535)throw Error('HEX_PORT inválido');createServer().listen(port,'127.0.0.1',()=>console.log('Hex Lab: http://localhost:'+port))}
+module.exports={createServer};

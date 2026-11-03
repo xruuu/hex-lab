@@ -1,0 +1,27 @@
+{
+  "name": "hex-lab",
+  "version": "5.3.1",
+  "private": true,
+  "description": "Hex Lab con editor de bindings ampliado, telemetr\u00eda y aplicaci\u00f3n autom\u00e1tica",
+  "scripts": {
+    "build": "node build/assemble.cjs && node scripts/prepare-pages.cjs",
+    "test": "npm run test:ui && npm run test:update && npm run test:protocol && npm run test:retouch && npm run test:dialogs && npm run test:dpi && npm run test:hosting",
+    "test:ui": "node build/test-app.cjs",
+    "test:update": "node build/test-update.cjs",
+    "test:protocol": "node build/test-protocol.cjs",
+    "test:retouch": "node build/test-retouch.cjs",
+    "test:dialogs": "node build/test-dialogs.cjs",
+    "test:dpi": "node build/test-dpi.cjs",
+    "start": "node scripts/serve.cjs",
+    "test:hosting": "node scripts/test-hosting.cjs"
+  },
+  "dependencies": {
+    "linkedom": "0.18.15"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

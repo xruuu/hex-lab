@@ -1,0 +1,1693 @@
+{
+  "application": "Hex Lab",
+  "status": "passed",
+  "passed": 397,
+  "failed": 0,
+  "physical_device_validated": false,
+  "environment": "Chromium headless; WebHID y acuses simulados. No se ha utilizado un ratón físico.",
+  "controller_encoders_preserved": true,
+  "application_policy_updated": true,
+  "physical_dpi_decoded": false,
+  "suites": {
+    "interface": {
+      "status": "passed",
+      "checks": 94,
+      "results": [
+        {
+          "test": "Arranque sin escritura HID",
+          "passed": true
+        },
+        {
+          "test": "16 marcadores físicos",
+          "passed": true
+        },
+        {
+          "test": "Cinco perfiles reales",
+          "passed": true
+        },
+        {
+          "test": "Imagen original del proyecto",
+          "passed": true
+        },
+        {
+          "test": "Seleccionar botón actualiza el controlador",
+          "passed": true
+        },
+        {
+          "test": "172 entradas del catálogo original",
+          "passed": true
+        },
+        {
+          "test": "Catálogo no habilita acciones sin codificador",
+          "passed": true
+        },
+        {
+          "test": "Asignación vinculada al modelo real",
+          "passed": true
+        },
+        {
+          "test": "Editar no transmite",
+          "passed": true
+        },
+        {
+          "test": "Deshacer restaura la asignación",
+          "passed": true
+        },
+        {
+          "test": "Los tres sensores están presentes",
+          "passed": true
+        },
+        {
+          "test": "Sensor cambia el estado del controlador",
+          "passed": true
+        },
+        {
+          "test": "Estados desconocidos bloquean el grupo sensor",
+          "passed": true
+        },
+        {
+          "test": "Sensor 0x08 codifica los tres estados juntos",
+          "passed": true
+        },
+        {
+          "test": "DPI usa el modelo existente",
+          "passed": true
+        },
+        {
+          "test": "DPI rechaza pasos inválidos sin alterar el modelo",
+          "passed": true
+        },
+        {
+          "test": "Frecuencia real seleccionada",
+          "passed": true
+        },
+        {
+          "test": "Ajustes no escriben sin revisión",
+          "passed": true
+        },
+        {
+          "test": "Modo de iluminación usa el catálogo real",
+          "passed": true
+        },
+        {
+          "test": "Iluminación no autoescribe por defecto",
+          "passed": true
+        },
+        {
+          "test": "Cinco tarjetas de perfil",
+          "passed": true
+        },
+        {
+          "test": "Nombre se guarda en el perfil real",
+          "passed": true
+        },
+        {
+          "test": "Exportación conserva cinco perfiles y datos reales",
+          "passed": true
+        },
+        {
+          "test": "Acento global aplicado",
+          "passed": true
+        },
+        {
+          "test": "Acento se conserva al navegar",
+          "passed": true
+        },
+        {
+          "test": "Acento persiste al recargar",
+          "passed": true
+        },
+        {
+          "test": "Proyecto persiste al recargar",
+          "passed": true
+        },
+        {
+          "test": "Panel lateral se minimiza",
+          "passed": true
+        },
+        {
+          "test": "Los detalles abren el controlador existente",
+          "passed": true
+        },
+        {
+          "test": "Aplicar no exige una segunda casilla",
+          "passed": true
+        },
+        {
+          "test": "Editor de macros real accesible",
+          "passed": true
+        },
+        {
+          "test": "Macro creada en el modelo real",
+          "passed": true
+        },
+        {
+          "test": "Sin desbordamiento horizontal: botones 1920×1080",
+          "passed": true
+        },
+        {
+          "test": "Una sola sección y navegación activa: botones 1920",
+          "passed": true
+        },
+        {
+          "test": "Sin desbordamiento horizontal: rendimiento 1920×1080",
+          "passed": true
+        },
+        {
+          "test": "Una sola sección y navegación activa: rendimiento 1920",
+          "passed": true
+        },
+        {
+          "test": "Sin desbordamiento horizontal: iluminaci-n 1920×1080",
+          "passed": true
+        },
+        {
+          "test": "Una sola sección y navegación activa: iluminaci-n 1920",
+          "passed": true
+        },
+        {
+          "test": "Sin desbordamiento horizontal: perfiles 1920×1080",
+          "passed": true
+        },
+        {
+          "test": "Una sola sección y navegación activa: perfiles 1920",
+          "passed": true
+        },
+        {
+          "test": "Sin desbordamiento horizontal: ajustes 1920×1080",
+          "passed": true
+        },
+        {
+          "test": "Una sola sección y navegación activa: ajustes 1920",
+          "passed": true
+        },
+        {
+          "test": "Sin desbordamiento horizontal: botones 1536×960",
+          "passed": true
+        },
+        {
+          "test": "Una sola sección y navegación activa: botones 1536",
+          "passed": true
+        },
+        {
+          "test": "Sin desbordamiento horizontal: rendimiento 1536×960",
+          "passed": true
+        },
+        {
+          "test": "Una sola sección y navegación activa: rendimiento 1536",
+          "passed": true
+        },
+        {
+          "test": "Sin desbordamiento horizontal: iluminaci-n 1536×960",
+          "passed": true
+        },
+        {
+          "test": "Una sola sección y navegación activa: iluminaci-n 1536",
+          "passed": true
+        },
+        {
+          "test": "Sin desbordamiento horizontal: perfiles 1536×960",
+          "passed": true
+        },
+        {
+          "test": "Una sola sección y navegación activa: perfiles 1536",
+          "passed": true
+        },
+        {
+          "test": "Sin desbordamiento horizontal: ajustes 1536×960",
+          "passed": true
+        },
+        {
+          "test": "Una sola sección y navegación activa: ajustes 1536",
+          "passed": true
+        },
+        {
+          "test": "Sin desbordamiento horizontal: botones 1366×768",
+          "passed": true
+        },
+        {
+          "test": "Una sola sección y navegación activa: botones 1366",
+          "passed": true
+        },
+        {
+          "test": "Sin desbordamiento horizontal: rendimiento 1366×768",
+          "passed": true
+        },
+        {
+          "test": "Una sola sección y navegación activa: rendimiento 1366",
+          "passed": true
+        },
+        {
+          "test": "Sin desbordamiento horizontal: iluminaci-n 1366×768",
+          "passed": true
+        },
+        {
+          "test": "Una sola sección y navegación activa: iluminaci-n 1366",
+          "passed": true
+        },
+        {
+          "test": "Sin desbordamiento horizontal: perfiles 1366×768",
+          "passed": true
+        },
+        {
+          "test": "Una sola sección y navegación activa: perfiles 1366",
+          "passed": true
+        },
+        {
+          "test": "Sin desbordamiento horizontal: ajustes 1366×768",
+          "passed": true
+        },
+        {
+          "test": "Una sola sección y navegación activa: ajustes 1366",
+          "passed": true
+        },
+        {
+          "test": "Sin desbordamiento horizontal: botones 1024×768",
+          "passed": true
+        },
+        {
+          "test": "Una sola sección y navegación activa: botones 1024",
+          "passed": true
+        },
+        {
+          "test": "Sin desbordamiento horizontal: rendimiento 1024×768",
+          "passed": true
+        },
+        {
+          "test": "Una sola sección y navegación activa: rendimiento 1024",
+          "passed": true
+        },
+        {
+          "test": "Sin desbordamiento horizontal: iluminaci-n 1024×768",
+          "passed": true
+        },
+        {
+          "test": "Una sola sección y navegación activa: iluminaci-n 1024",
+          "passed": true
+        },
+        {
+          "test": "Sin desbordamiento horizontal: perfiles 1024×768",
+          "passed": true
+        },
+        {
+          "test": "Una sola sección y navegación activa: perfiles 1024",
+          "passed": true
+        },
+        {
+          "test": "Sin desbordamiento horizontal: ajustes 1024×768",
+          "passed": true
+        },
+        {
+          "test": "Una sola sección y navegación activa: ajustes 1024",
+          "passed": true
+        },
+        {
+          "test": "Sin desbordamiento horizontal: botones 768×1024",
+          "passed": true
+        },
+        {
+          "test": "Una sola sección y navegación activa: botones 768",
+          "passed": true
+        },
+        {
+          "test": "Sin desbordamiento horizontal: rendimiento 768×1024",
+          "passed": true
+        },
+        {
+          "test": "Una sola sección y navegación activa: rendimiento 768",
+          "passed": true
+        },
+        {
+          "test": "Sin desbordamiento horizontal: iluminaci-n 768×1024",
+          "passed": true
+        },
+        {
+          "test": "Una sola sección y navegación activa: iluminaci-n 768",
+          "passed": true
+        },
+        {
+          "test": "Sin desbordamiento horizontal: perfiles 768×1024",
+          "passed": true
+        },
+        {
+          "test": "Una sola sección y navegación activa: perfiles 768",
+          "passed": true
+        },
+        {
+          "test": "Sin desbordamiento horizontal: ajustes 768×1024",
+          "passed": true
+        },
+        {
+          "test": "Una sola sección y navegación activa: ajustes 768",
+          "passed": true
+        },
+        {
+          "test": "Sin desbordamiento horizontal: botones 390×844",
+          "passed": true
+        },
+        {
+          "test": "Una sola sección y navegación activa: botones 390",
+          "passed": true
+        },
+        {
+          "test": "Sin desbordamiento horizontal: rendimiento 390×844",
+          "passed": true
+        },
+        {
+          "test": "Una sola sección y navegación activa: rendimiento 390",
+          "passed": true
+        },
+        {
+          "test": "Sin desbordamiento horizontal: iluminaci-n 390×844",
+          "passed": true
+        },
+        {
+          "test": "Una sola sección y navegación activa: iluminaci-n 390",
+          "passed": true
+        },
+        {
+          "test": "Sin desbordamiento horizontal: perfiles 390×844",
+          "passed": true
+        },
+        {
+          "test": "Una sola sección y navegación activa: perfiles 390",
+          "passed": true
+        },
+        {
+          "test": "Sin desbordamiento horizontal: ajustes 390×844",
+          "passed": true
+        },
+        {
+          "test": "Una sola sección y navegación activa: ajustes 390",
+          "passed": true
+        },
+        {
+          "test": "Cero errores de JavaScript o de consola",
+          "passed": true
+        },
+        {
+          "test": "Ninguna escritura HID durante edición y revisión",
+          "passed": true
+        }
+      ],
+      "errors": [],
+      "scope": "Interfaz y controlador con WebHID simulado. Sin validación física."
+    },
+    "behavior": {
+      "status": "passed",
+      "checks": 45,
+      "results": [
+        {
+          "test": "Arranque sin escritura",
+          "passed": true
+        },
+        {
+          "test": "Título en negrita",
+          "passed": true
+        },
+        {
+          "test": "Perfil en el encabezado",
+          "passed": true
+        },
+        {
+          "test": "Selector antiguo retirado del mapa",
+          "passed": true
+        },
+        {
+          "test": "Logo vectorial en la app",
+          "passed": true
+        },
+        {
+          "test": "Favicon incluido",
+          "passed": true
+        },
+        {
+          "test": "Editor más ancho y ratón reducido",
+          "passed": true
+        },
+        {
+          "test": "172 acciones en el editor ampliado",
+          "passed": true
+        },
+        {
+          "test": "Vuelta a la vista general",
+          "passed": true
+        },
+        {
+          "test": "Conectar no transmite",
+          "passed": true
+        },
+        {
+          "test": "Botón de conectar oculto y deshabilitado al conectar",
+          "passed": true
+        },
+        {
+          "test": "Batería real del informe 0x04 en la barra lateral",
+          "passed": true
+        },
+        {
+          "test": "100 % transitorio del receptor conserva el último valor estable",
+          "passed": true
+        },
+        {
+          "test": "Indicación de carga visible",
+          "passed": true
+        },
+        {
+          "test": "Tres selecciones rápidas producen un solo envío final",
+          "passed": true
+        },
+        {
+          "test": "Aplicación automática sin confirmación extra",
+          "passed": true
+        },
+        {
+          "test": "No se envía un bloque sensor con estados desconocidos",
+          "passed": true
+        },
+        {
+          "test": "Sensor automático 0x08 preserva los tres estados",
+          "passed": true
+        },
+        {
+          "test": "DPI numérico se transmite automáticamente",
+          "passed": true
+        },
+        {
+          "test": "DPI del editor identificado como borrador",
+          "passed": true
+        },
+        {
+          "test": "DPI físico no inventado",
+          "passed": true
+        },
+        {
+          "test": "Ediciones durante el envío no se pierden ni se solapan",
+          "passed": true
+        },
+        {
+          "test": "Cambiar de perfil cancela un envío aún no iniciado",
+          "passed": true
+        },
+        {
+          "test": "Elegir un perfil no transmite ajustes antiguos",
+          "passed": true
+        },
+        {
+          "test": "Aplicar pendientes funciona con un solo clic",
+          "passed": true
+        },
+        {
+          "test": "Macro pendiente no se transmite automáticamente",
+          "passed": true
+        },
+        {
+          "test": "RGB se autoaplica aunque haya macros pendientes",
+          "passed": true
+        },
+        {
+          "test": "Macro confirmada una sola vez envía la secuencia completa",
+          "passed": true
+        },
+        {
+          "test": "Cambiar otro binding conserva una macro ya aplicada sin reenviarla",
+          "passed": true
+        },
+        {
+          "test": "Captura incluye colecciones del dispositivo sin permisos nuevos",
+          "passed": true
+        },
+        {
+          "test": "Captura DPI es pasiva y guarda eventos sin fingir un decodificador",
+          "passed": true
+        },
+        {
+          "test": "Desconexión actualiza estado y habilita conectar",
+          "passed": true
+        },
+        {
+          "test": "Desconexión retira el porcentaje de batería",
+          "passed": true
+        },
+        {
+          "test": "Sin conexión solo se guarda localmente",
+          "passed": true
+        },
+        {
+          "test": "Reconectar no reproduce escrituras anteriores",
+          "passed": true
+        },
+        {
+          "test": "Modal ampliado",
+          "passed": true
+        },
+        {
+          "test": "Casilla duplicada de transmisión oculta",
+          "passed": true
+        },
+        {
+          "test": "Editor ampliado sin desbordamiento 1920",
+          "passed": true
+        },
+        {
+          "test": "Editor ampliado sin desbordamiento 1536",
+          "passed": true
+        },
+        {
+          "test": "Editor ampliado sin desbordamiento 1366",
+          "passed": true
+        },
+        {
+          "test": "Editor ampliado sin desbordamiento 1024",
+          "passed": true
+        },
+        {
+          "test": "Editor ampliado sin desbordamiento 768",
+          "passed": true
+        },
+        {
+          "test": "Editor ampliado sin desbordamiento 390",
+          "passed": true
+        },
+        {
+          "test": "Acuse fallido bloquea todos los reintentos automáticos",
+          "passed": true
+        },
+        {
+          "test": "No hay errores de JavaScript",
+          "passed": true
+        }
+      ],
+      "errors": [],
+      "hardware": "simulated"
+    },
+    "protocol": {
+      "status": "passed",
+      "checks": 179,
+      "results": [
+        {
+          "test": "Catálogo completo de 172 acciones",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:KeyA",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:KeyB",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:KeyC",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:KeyD",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:KeyE",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:KeyF",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:KeyG",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:KeyH",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:KeyI",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:KeyJ",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:KeyK",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:KeyL",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:KeyM",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:KeyN",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:KeyO",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:KeyP",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:KeyQ",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:KeyR",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:KeyS",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:KeyT",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:KeyU",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:KeyV",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:KeyW",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:KeyX",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:KeyY",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:KeyZ",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:Digit0",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:Digit1",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:Digit2",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:Digit3",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:Digit4",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:Digit5",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:Digit6",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:Digit7",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:Digit8",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:Digit9",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:Minus",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:Equal",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:BracketLeft",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:BracketRight",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:Backslash",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:Semicolon",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:Quote",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:Backquote",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:Comma",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:Period",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:Slash",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:IntlBackslash",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:IntlRo",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:IntlYen",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:Space",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:Enter",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:Escape",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:Tab",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:Backspace",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:Delete",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:Insert",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:Home",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:End",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:PageUp",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:PageDown",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:CapsLock",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:NumLock",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:ScrollLock",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:PrintScreen",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:Pause",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:ContextMenu",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:ArrowUp",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:ArrowDown",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:ArrowLeft",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:ArrowRight",
+          "passed": true
+        },
+        {
+          "test": "Bloqueo coherente: key:ControlLeft",
+          "passed": true
+        },
+        {
+          "test": "Bloqueo coherente: key:ControlRight",
+          "passed": true
+        },
+        {
+          "test": "Bloqueo coherente: key:ShiftLeft",
+          "passed": true
+        },
+        {
+          "test": "Bloqueo coherente: key:ShiftRight",
+          "passed": true
+        },
+        {
+          "test": "Bloqueo coherente: key:AltLeft",
+          "passed": true
+        },
+        {
+          "test": "Bloqueo coherente: key:AltRight",
+          "passed": true
+        },
+        {
+          "test": "Bloqueo coherente: key:MetaLeft",
+          "passed": true
+        },
+        {
+          "test": "Bloqueo coherente: key:MetaRight",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:F1",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:F2",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:F3",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:F4",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:F5",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:F6",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:F7",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:F8",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:F9",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:F10",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:F11",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:F12",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:F13",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:F14",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:F15",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:F16",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:F17",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:F18",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:F19",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:F20",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:F21",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:F22",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:F23",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:F24",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:Numpad0",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:Numpad1",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:Numpad2",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:Numpad3",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:Numpad4",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:Numpad5",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:Numpad6",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:Numpad7",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:Numpad8",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:Numpad9",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:NumpadAdd",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:NumpadSubtract",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:NumpadMultiply",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:NumpadDivide",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:NumpadEnter",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:NumpadDecimal",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:NumpadEqual",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: key:NumpadComma",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: mouse:Left Button",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: mouse:Right Button",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: mouse:Middle Button",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: mouse:Forward",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: mouse:Backward",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: media:Media Select",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: media:Previous Track",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: media:Next Track",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: media:Stop",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: media:Play/Pause",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: media:Mute",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: media:Volume Up",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: media:Volume Down",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: media:Email",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: media:Calculator",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: office:Copy",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: office:Paste",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: office:Cut",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: office:Select All",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: office:New",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: office:Save",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: office:Print",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: office:Open",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: office:Undo",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: window:My Computer",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: window:Close Window",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: window:Display Desktop",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: window:Run",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: window:Minimize",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: window:Maximize",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: device:DPI+",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: device:DPI-",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: device:DPI Cycle",
+          "passed": true
+        },
+        {
+          "test": "Bloqueo coherente: device:DPI Lock",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: device:Switch Effect",
+          "passed": true
+        },
+        {
+          "test": "Bloqueo coherente: device:Switch Profile",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: device:DPI Lock 200",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: device:DPI Lock 300",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: device:DPI Lock 400",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: device:DPI Lock 500",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: device:DPI Lock 600",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: device:DPI Lock 700",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: device:DPI Lock 800",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: device:DPI Lock 900",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: device:DPI Lock 1000",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: device:DPI Lock 1100",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: device:DPI Lock 1200",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: special:Fire Key",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: special:Three Click",
+          "passed": true
+        },
+        {
+          "test": "Código, informe, secuencia y checksum: special:Disable",
+          "passed": true
+        },
+        {
+          "test": "Bloqueo coherente: special:Run APP",
+          "passed": true
+        },
+        {
+          "test": "Tramas polling",
+          "passed": true
+        },
+        {
+          "test": "Tramas sensor08",
+          "passed": true
+        },
+        {
+          "test": "Tramas energy07",
+          "passed": true
+        },
+        {
+          "test": "Tramas dpi",
+          "passed": true
+        },
+        {
+          "test": "Tramas dpiColors",
+          "passed": true
+        },
+        {
+          "test": "Tramas rgb",
+          "passed": true
+        }
+      ],
+      "hardware": "simulated",
+      "physical_device_validated": false
+    },
+    "retouch": {
+      "status": "passed",
+      "checks": 15,
+      "results": [
+        {
+          "test": "Icono Botones hereda acento #d9b66f",
+          "passed": true
+        },
+        {
+          "test": "Icono Botones hereda acento #9b86ed",
+          "passed": true
+        },
+        {
+          "test": "Icono Botones hereda acento #52a9d8",
+          "passed": true
+        },
+        {
+          "test": "Icono de batería junto a su barra",
+          "passed": true
+        },
+        {
+          "test": "Batería encima del separador inferior",
+          "passed": true
+        },
+        {
+          "test": "Duración de transición más suave",
+          "passed": true
+        },
+        {
+          "test": "Reducción progresiva sin salto al tamaño final",
+          "passed": true
+        },
+        {
+          "test": "Ratón conserva tamaño legible al editar",
+          "passed": true
+        },
+        {
+          "test": "Editor conserva mayor espacio que el ratón",
+          "passed": true
+        },
+        {
+          "test": "Catálogo sin tags de estado",
+          "passed": true
+        },
+        {
+          "test": "Nivel local seleccionado sin fondo ni borde de acento",
+          "passed": true
+        },
+        {
+          "test": "Sin etiqueta experimental en la selección",
+          "passed": true
+        },
+        {
+          "test": "Acciones no compatibles siguen deshabilitadas",
+          "passed": true
+        },
+        {
+          "test": "Vuelta gradual a la vista general",
+          "passed": true
+        },
+        {
+          "test": "Respeta reducción de movimiento",
+          "passed": true
+        }
+      ],
+      "hardware": "simulated"
+    },
+    "dialogs": {
+      "status": "passed",
+      "checks": 36,
+      "results": [
+        {
+          "test": "Combinación en un diálogo compacto",
+          "passed": true
+        },
+        {
+          "test": "Solo controles de combinación visibles",
+          "passed": true
+        },
+        {
+          "test": "Estado técnico fuera del diálogo",
+          "passed": true
+        },
+        {
+          "test": "Pie antiguo fuera del diálogo",
+          "passed": true
+        },
+        {
+          "test": "Asignar combinación cierra y actualiza el modelo",
+          "passed": true
+        },
+        {
+          "test": "Captura rellena los controles sin cambiar el binding",
+          "passed": true
+        },
+        {
+          "test": "Aplicar captura guarda la combinación elegida",
+          "passed": true
+        },
+        {
+          "test": "Macro sin herramientas antiguas",
+          "passed": true
+        },
+        {
+          "test": "Importación secundaria plegada",
+          "passed": true
+        },
+        {
+          "test": "Errores de edición visibles sin mostrar estado técnico",
+          "passed": true
+        },
+        {
+          "test": "Editor de eventos conserva funcionamiento",
+          "passed": true
+        },
+        {
+          "test": "Macro asignada espera su aplicación manual",
+          "passed": true
+        },
+        {
+          "test": "Sin texto de versión en profiles",
+          "passed": true
+        },
+        {
+          "test": "Diálogo sin desbordamiento profiles 1536",
+          "passed": true
+        },
+        {
+          "test": "Diálogo sin desbordamiento profiles 768",
+          "passed": true
+        },
+        {
+          "test": "Diálogo sin desbordamiento profiles 390",
+          "passed": true
+        },
+        {
+          "test": "Sin texto de versión en writer",
+          "passed": true
+        },
+        {
+          "test": "Diálogo sin desbordamiento writer 1536",
+          "passed": true
+        },
+        {
+          "test": "Diálogo sin desbordamiento writer 768",
+          "passed": true
+        },
+        {
+          "test": "Diálogo sin desbordamiento writer 390",
+          "passed": true
+        },
+        {
+          "test": "Resumen de cambios visible",
+          "passed": true
+        },
+        {
+          "test": "Recuperaciones antiguas fuera del flujo",
+          "passed": true
+        },
+        {
+          "test": "Sin texto de versión en onboarding",
+          "passed": true
+        },
+        {
+          "test": "Diálogo sin desbordamiento onboarding 1536",
+          "passed": true
+        },
+        {
+          "test": "Diálogo sin desbordamiento onboarding 768",
+          "passed": true
+        },
+        {
+          "test": "Diálogo sin desbordamiento onboarding 390",
+          "passed": true
+        },
+        {
+          "test": "Importador sin paneles del diálogo anterior",
+          "passed": true
+        },
+        {
+          "test": "Sin texto de versión en macros",
+          "passed": true
+        },
+        {
+          "test": "Diálogo sin desbordamiento macros 1536",
+          "passed": true
+        },
+        {
+          "test": "Diálogo sin desbordamiento macros 768",
+          "passed": true
+        },
+        {
+          "test": "Diálogo sin desbordamiento macros 390",
+          "passed": true
+        },
+        {
+          "test": "Sin texto de versión en remap",
+          "passed": true
+        },
+        {
+          "test": "Diálogo sin desbordamiento remap 1536",
+          "passed": true
+        },
+        {
+          "test": "Diálogo sin desbordamiento remap 768",
+          "passed": true
+        },
+        {
+          "test": "Diálogo sin desbordamiento remap 390",
+          "passed": true
+        },
+        {
+          "test": "Sin errores JavaScript",
+          "passed": true
+        }
+      ],
+      "errors": [],
+      "hardware": "simulated"
+    },
+    "dpi": {
+      "status": "passed",
+      "checks": 28,
+      "results": [
+        {
+          "test": "Captura real, informe 1 detecta nivel 1",
+          "passed": true
+        },
+        {
+          "test": "Captura real, informe 2 detecta nivel 2",
+          "passed": true
+        },
+        {
+          "test": "Captura real, informe 3 detecta nivel 1",
+          "passed": true
+        },
+        {
+          "test": "Captura real, informe 4 detecta nivel 2",
+          "passed": true
+        },
+        {
+          "test": "Captura real, informe 5 detecta nivel 1",
+          "passed": true
+        },
+        {
+          "test": "Captura real, informe 6 detecta nivel 2",
+          "passed": true
+        },
+        {
+          "test": "Captura real, informe 7 detecta nivel 1",
+          "passed": true
+        },
+        {
+          "test": "Captura real, informe 8 detecta nivel 2",
+          "passed": true
+        },
+        {
+          "test": "Captura real, informe 9 detecta nivel 1",
+          "passed": true
+        },
+        {
+          "test": "Captura real, informe 10 detecta nivel 2",
+          "passed": true
+        },
+        {
+          "test": "Captura real, informe 11 detecta nivel 3",
+          "passed": true
+        },
+        {
+          "test": "Captura real, informe 12 detecta nivel 4",
+          "passed": true
+        },
+        {
+          "test": "Captura real, informe 13 detecta nivel 5",
+          "passed": true
+        },
+        {
+          "test": "Captura real, informe 14 detecta nivel 6",
+          "passed": true
+        },
+        {
+          "test": "Captura real, informe 15 detecta nivel 5",
+          "passed": true
+        },
+        {
+          "test": "Captura real, informe 16 detecta nivel 4",
+          "passed": true
+        },
+        {
+          "test": "Captura real, informe 17 detecta nivel 3",
+          "passed": true
+        },
+        {
+          "test": "Captura real, informe 18 detecta nivel 2",
+          "passed": true
+        },
+        {
+          "test": "Captura real, informe 19 detecta nivel 1",
+          "passed": true
+        },
+        {
+          "test": "Batería del formato observado se decodifica también",
+          "passed": true
+        },
+        {
+          "test": "Detectar no cambia el borrador",
+          "passed": true
+        },
+        {
+          "test": "Detectar no escribe ni crea cambios pendientes",
+          "passed": true
+        },
+        {
+          "test": "DPI numérico no supuesto desde el índice",
+          "passed": true
+        },
+        {
+          "test": "Otros niveles no observados no se decodifican",
+          "passed": true
+        },
+        {
+          "test": "Escribir DPI invalida el índice previo hasta recibir otro informe",
+          "passed": true
+        },
+        {
+          "test": "Desconectar retira el índice detectado",
+          "passed": true
+        },
+        {
+          "test": "Reconectar no recupera un índice antiguo",
+          "passed": true
+        },
+        {
+          "test": "Sin errores JavaScript",
+          "passed": true
+        }
+      ],
+      "errors": [],
+      "hardware": "simulated; replay de captura física aportada, correlación confirmada por el usuario"
+    }
+  },
+  "limitations": [
+    "Se detecta el índice físico 0–5 en el formato E9 observado; la lectura del valor DPI numérico permanece sin implementar.",
+    "La correlación física procede de una captura real aportada y confirmada por el usuario; las pruebas automatizadas reproducen esos informes.",
+    "Los acuses HID no acreditan que cada acción funcione físicamente.",
+    "El catálogo conserva los estados conocido, experimental y no compatible del codificador."
+  ],
+  "html_sha256": "4d026bbf0003be3e2d6943d14d92012d614f736bb9db7eb116d28d9d9d94e578",
+  "dpi_capture_analysis": {
+    "source": "hex-lab-dpi-capture.json",
+    "input_reports": 19,
+    "second_capture": "hex-lab-dpi-capture (1).json",
+    "all_observed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "report_ids": [
+      4
+    ],
+    "changed_byte_offsets": [
+      1
+    ],
+    "observed_values": [
+      0,
+      1
+    ],
+    "feature_reads_changed": false,
+    "feature_report_190": "No se pudo leer antes ni después",
+    "dpi_index_correlation_user_confirmed": true,
+    "observed_levels": [
+      {
+        "index": 0,
+        "user_reported_dpi": 800
+      },
+      {
+        "index": 1,
+        "user_reported_dpi": 1200
+      }
+    ],
+    "numerical_dpi_read_from_device": false,
+    "conclusion": "El usuario confirma alternancia entre nivel 1 (800 DPI) y nivel 2 (1200 DPI). Una segunda captura recorre 1,0,1,2,3,4,5,4,3,2,1,0. Se interpreta el byte 1 de los informes E9 del formato observado como índice 0–5; otros formatos no se decodifican. Los valores DPI numéricos no se obtienen del informe."
+  }
+}

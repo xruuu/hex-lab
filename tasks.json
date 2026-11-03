@@ -1,0 +1,1 @@
+{"version":"2.0.0","tasks":[{"label":"Hex Lab: compilar","type":"npm","script":"build","group":{"kind":"build","isDefault":true},"problemMatcher":[]},{"label":"Hex Lab: abrir servidor local","type":"npm","script":"start","problemMatcher":[]},{"label":"Hex Lab: pruebas","type":"npm","script":"test","group":"test","problemMatcher":[]}]}
